@@ -17,7 +17,7 @@ from openai import OpenAI
 # 页面配置
 # ==========================================
 st.set_page_config(
-    page_title="PromptHub AI - 提示词超级工作台",
+    page_title="打工人准点下班 AI 神器",
     page_icon="⚡",
     layout="wide",
     initial_sidebar_state="collapsed",
@@ -1105,8 +1105,8 @@ st.markdown(
     <div class="navbar-brand">
         <div class="navbar-logo">P</div>
         <div>
-            <div class="navbar-title">PromptHub AI</div>
-            <div class="navbar-subtitle">提示词超级工作台</div>
+            <div class="navbar-title">打工人准点下班 AI 神器</div>
+            <div class="navbar-subtitle">老板爱看的汇报，3秒生成</div>
         </div>
     </div>
     <div class="credit-badge">
@@ -1124,19 +1124,19 @@ st.markdown(
 st.markdown(
     """
 <div class="hero-section">
-    <h1 class="hero-title">让 AI 提示词产生复利价值</h1>
+    <h1 class="hero-title">打工人准点下班 AI 神器</h1>
     <p class="hero-description">
-        精选高质量提示词模板，一键替换变量，AI 即时生成专业内容。
-        <br>覆盖写作、职场、编程、营销、小红书、学习六大场景。
+        受够了写周报和总结？输入关键词，3秒生成老板爱看的汇报。
+        <br>职场汇报、公文写作、邮件回复，一键搞定。
     </p>
     <div class="hero-steps">
-        <div class="hero-step"><span class="hero-step-num">1</span>选择分类</div>
+        <div class="hero-step"><span class="hero-step-num">1</span>选择场景</div>
         <span class="hero-arrow">→</span>
-        <div class="hero-step"><span class="hero-step-num">2</span>复制提示词</div>
+        <div class="hero-step"><span class="hero-step-num">2</span>复制模板</div>
         <span class="hero-arrow">→</span>
-        <div class="hero-step"><span class="hero-step-num">3</span>填入变量</div>
+        <div class="hero-step"><span class="hero-step-num">3</span>填入关键词</div>
         <span class="hero-arrow">→</span>
-        <div class="hero-step"><span class="hero-step-num">4</span>AI 生成</div>
+        <div class="hero-step"><span class="hero-step-num">4</span>一键生成</div>
     </div>
 </div>
 """,
@@ -1603,7 +1603,7 @@ else:
 st.markdown(
     """
 <div class="footer">
-    PromptHub AI — AI 提示词超级工作台
+    打工人准点下班 AI 神器 — 老板爱看的汇报，3秒生成
 </div>
 """,
     unsafe_allow_html=True,
